@@ -1,0 +1,108 @@
+@font-face {
+	font-family: 'Monstserrat';
+	src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'UbuntuMono';
+	src: url('../fonts/UbuntuMono-Italic.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #121212;
+	color: #ffffff;
+}
+
+.box {
+	background: #1E1E1E;
+	border-radius: 15px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+
+	width: 80vw;
+	padding-bottom: 1.5vh;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h2 {
+	text-align: center;
+	margin: 1.5vh 0 1.5vh 0;
+	font-family: 'Monstserrat', sans-serif;
+}
+
+.editor {
+	width: 38vw;
+	margin: 0 1vw 0 1vw;
+}
+
+.CodeMirror {
+	border-radius: 0.5vw;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.right > select {
+	float: right;
+}
+
+select {
+	margin-top: 0.8vw;
+	padding: 0.8vw 5vw 0.8vw 5vw;
+	background: #303030;
+	color: #fff;
+	border-radius: 0.5vw;
+}
+
+#error {
+	font-family: 'Monstserrat', sans-serif;
+	color: #dd4444;
+	margin-top: 0.5vh;
+	text-align: center;
+	font-size: 0.8vw;
+
+	position: absolute;
+	left: 50%;
+	bottom: 0.3vh;
+	transform: translateX(-50%);
+}
+
+.social {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+
+	list-style: none;
+	margin: 1.5vh auto;
+	width: fit-content;
+}
+
+li {
+	float: left;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+a {
+	color: #ffffff !important;
+	font-size: 2.5vw;
+	transition: 0.2s;
+}
+
+a:hover {
+	color: #5260ff !important;
+}
