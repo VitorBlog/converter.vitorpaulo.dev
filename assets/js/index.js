@@ -1,11 +1,3 @@
-/**
- * TODO: Make a better 'type' interpretation system;
- * TODO: Make global 'types';
- * TODO: Recreate variable value reading and build system;
- * TODO: Add Kotlin, PHP, Swift and more;
- * FIXME: Java and TypeScript class declaration can be removed;
- */
-
 const left = { language: Java };
 const right = { language: Json };
 const whitelist = ['string', 'int', 'double', 'boolean', 'long', 'number'];
